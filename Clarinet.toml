@@ -1,0 +1,25 @@
+[project]
+name = "clear-donate"
+description = "A simple and transparent donation contract on Stacks."
+authors = []
+telemetry = true
+cache_dir = ".clarinet"
+requirements = []
+[contracts.clear-donate]
+path = "contracts/clear-donate.clar"
+depends_on = []
+
+[repl]
+costs_bcs_file = ".clarinet/costs.bcs"
+costs_db_file = ".clarinet/costs.db"
+
+[runners.test]
+vm_version = "2"
+
+[accounts.deployer]
+mnemonic = "fetch outside black test wash cover just actual execute nice door want airport betray quantum stamp fish shield acquire coral cigar morning segment vehicle"
+balance = 100000000
+
+[accounts.wallet_1]
+mnemonic = "history output knock thunder couple this bitter divorce tattoo mandate math art lava obvious tooth blind book garden snake elegant sausage reform track season"
+balance = 100000000
